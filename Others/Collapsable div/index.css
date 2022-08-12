@@ -1,0 +1,37 @@
+.collapsible {
+    overflow: hidden;
+    height: auto;
+    transform-origin: top left;
+  }
+  
+  .collapsible.collapsed {
+    height: 0;
+  }
+  
+  .collapsible__content {
+    transform-origin: top left;
+    display: inline-block;
+  }
+  
+  .collapsible.animate-expand {
+    animation: collapseAnimation 0.5s linear;
+  }
+  
+  .collapsible.animate-collapse {
+    animation: collapseAnimation 0.5s linear;
+    animation-direction: reverse;
+  }
+  
+  .collapsible.animate-expand .collapsible__content {
+    animation: collapseContentAnimation 0.5s linear;
+  }
+  
+  .collapsible.animate-collapse .collapsible__content {
+    animation: collapseContentAnimation 0.5s linear;
+    animation-direction: reverse;
+  }
+  
+  .animate-on-transform {
+    will-change: transform;
+    transition: transform 0.5s linear;
+  }

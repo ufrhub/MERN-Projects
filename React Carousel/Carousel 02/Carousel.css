@@ -1,0 +1,44 @@
+.slider {
+  position: relative;
+  max-height: 460px;
+  min-height: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.fa-angle-right {
+  position: absolute;
+  right: 32px;
+  font-size: 3rem;
+  color: red;
+  cursor: pointer;
+  padding: 160px 60px;
+  z-index: 10;
+}
+
+.fa-angle-left {
+  position: absolute;
+  left: 32px;
+  font-size: 3rem;
+  color: red;
+  cursor: pointer;
+  padding: 160px 60px;
+  z-index: 10;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

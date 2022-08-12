@@ -1,0 +1,21 @@
+.Collapsable .toggle {
+    color: #fff;
+    background: blue;
+    padding: 5px;
+    border: unset;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Collapsable .content-parent {
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.Collapsable .content {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

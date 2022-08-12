@@ -1,0 +1,538 @@
+/********************* HOME TOP SECTION *********************/
+.HomeTopSection {
+    position: relative;
+    height: 87vh;
+    width: 100%;
+    background: url("https://www.irctc.co.in/nget/home_page_banner1.ab4db3998511d52c6612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 640px;
+}
+
+/*********** Left Section ***********/
+.HomeTopSection-left {
+    position: absolute;
+    width: 665px;
+    height: 440px;
+    left: 5.6%;
+    top: 75px;
+    background: white;
+    z-index: 10;
+}
+
+.HomeTopSection-box-top {
+    height: 37px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+
+.HomeTopSection-box-right,
+.HomeTopSection-box-left {
+    position: relative;
+    height: 100%;
+    width: 49.5%;
+    background: #213d77;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.HomeTopSection-box-right>img,
+.HomeTopSection-box-left>img {
+    position: absolute;
+    height: 35px;
+    width: auto;
+    top: 3px;
+    left: 15px;
+}
+
+.HomeTopSection-box-bottom {
+    position: relative;
+    text-align: center;
+}
+
+.HomeTopSection-box-bottom-up>img {
+    position: absolute;
+    left: 20px;
+}
+
+.HomeTopSection-box-bottom-up>span {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #213d77;
+}
+
+/* row One */
+.HomeTopSection-box-row {
+    position: relative;
+    width: 100%;
+    top: 112px;
+    display: flex;
+}
+
+.HomeTopSection-box-row>input {
+    position: absolute;
+    width: 341px;
+    left: 30px;
+    padding: 7px 7px 7px 37px;
+    border: 0.7px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    outline-color: #213d77;
+}
+
+.HomeTopSection-arrowOne {
+    position: absolute;
+    font-size: 11px;
+    padding: 7px;
+    top: 9px;
+    left: 35px;
+    color: #213d77;
+}
+
+.HomeTopSection-box-row>.text {
+    position: absolute;
+    padding: 7px;
+    left: 60px;
+    color: #213d77;
+    transition: all 0.25s ease-in-out;
+}
+
+.HomeTopSection-box-row>.inputTwo {
+    position: absolute;
+    width: 233px;
+    height: 40px;
+    left: 400px;
+    padding: 7px 7px 7px 37px;
+    border: 0.7px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    outline-color: #213d77;
+}
+
+.HomeTopSection-inputTwo-txt {
+    margin: -25px 0 7px -58%;
+    font-size: 12px;
+    color: #213d77;
+}
+
+.date-picker input {
+    min-width: 100%;
+    width: 205px;
+    padding: 6px;
+    margin-left: -10px;
+    margin-top: -8px;
+    color: #213d77;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.HomeTopSection-arrowFour {
+    position: absolute;
+    font-size: 14px;
+    padding: 7px;
+    top: 6px;
+    left: 5px;
+    color: #213d77;
+}
+
+/* row Two */
+.HomeTopSection-box-row.two {
+    position: relative;
+    width: 100%;
+    top: 155px;
+    display: flex;
+}
+
+.HomeTopSection-arrowTwo {
+    position: absolute;
+    font-size: 15px;
+    padding: 2px;
+    top: 2.5px;
+    left: 185px;
+    padding: 4px;
+    background: #213e7717;
+    border-radius: 50%;
+    color: #213d77;
+    transform: rotate(90deg);
+}
+
+/*  row Three */
+.HomeTopSection-box-row.three {
+    position: relative;
+    width: 100%;
+    top: 185px;
+    display: flex;
+}
+
+.three>input {
+    position: absolute;
+    width: 341px;
+    left: 30px;
+    padding: 7px 7px 7px 37px;
+    border: 0.7px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    outline-color: #213d77;
+}
+
+.three>.text {
+    position: absolute;
+    padding: 7px;
+    left: 60px;
+    color: #213d77;
+    transition: all 0.25s ease-in-out;
+}
+
+.three>select {
+    position: absolute;
+    width: 233px;
+    left: 400px;
+    padding: 7px 7px 7px 37px;
+    border: 0.7px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    color: #213d77;
+    outline-color: #213d77;
+}
+
+.HomeTopSection-arrowThree {
+    position: absolute;
+    font-size: 13px;
+    padding: 4px;
+    top: 10px;
+    left: 409px;
+    color: #213d77;
+}
+
+/*  row Four */
+.HomeTopSection-box-row.four {
+    position: relative;
+    width: 100%;
+    top: 258px;
+    display: flex;
+}
+
+.four>select {
+    position: absolute;
+    width: 341px;
+    left: 30px;
+    color: #213d77;
+    padding: 7px 7px 7px 30px;
+    border: 0.7px solid rgb(159, 159, 159);
+    border-radius: 5px;
+    outline-color: #213d77;
+}
+
+/* row Five */
+.HomeTopSection-box-row.five {
+    position: relative;
+    width: 100%;
+    top: 331px;
+    display: flex;
+}
+
+.five>.HomeTopSection-five-inpOne,
+.six>.HomeTopSection-six-inpOne {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 30px;
+    border-radius: 1px;
+}
+
+.five>.HomeTopSection-five-labOne,
+.six>.HomeTopSection-six-labOne {
+    position: absolute;
+    font-size: 14px;
+    left: 53px;
+    top: -1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #213d77;
+    font-weight: 550;
+    letter-spacing: 0.1px;
+}
+
+.five>.HomeTopSection-five-inpTwo,
+.six>.HomeTopSection-six-inpTwo {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 340px;
+}
+
+.five>.HomeTopSection-five-labTwo,
+.six>.HomeTopSection-six-labTwo {
+    position: absolute;
+    font-size: 14px;
+    left: 365px;
+    top: -1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #213d77;
+    font-weight: 550;
+    letter-spacing: 0.1px;
+}
+
+/* row Six */
+.HomeTopSection-box-row.six {
+    position: relative;
+    width: 100%;
+    top: 361px;
+    display: flex;
+}
+
+/* row Seven */
+.HomeTopSection-box-row.seven {
+    position: relative;
+    width: 100%;
+    top: 391px;
+    display: flex;
+}
+
+.seven>button {
+    position: absolute;
+    left: 30px;
+    font-weight: 700;
+    color: white;
+    background: rgba(255, 68, 0, 0.819);
+    border: none;
+    border-radius: 5px;
+    padding: 7px 40px;
+    opacity: 0.9;
+}
+
+.seven>button:hover {
+    opacity: 1;
+    left: 29px;
+    padding: 8px 41px;
+}
+
+/* Notification Box */
+.HomeTopSection-notification-box {
+    height: 90px;
+    width: 665px;
+    font-size: 14px;
+    margin-top: 450px;
+    background: white;
+    text-align: left;
+    padding: 5px;
+}
+
+.HomeTopSection-notification-box>div {
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/*********** Right Section ***********/
+.HomeTopSection-right {
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    left: 920px;
+    top: 87px;
+    background: transparent;
+}
+
+.HomeTopSection-right-up {
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin: 100px 140px 0 0;
+}
+
+.HomeTopSection-right-down {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 23px;
+    color: white;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left: 70px;
+}
+
+/********************* HOME MIDDLE SECTION *********************/
+.HomeMiddleSection {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.HomeMiddleSection-box-line {
+    height: 70px;
+    width: 100%;
+    background: #f7f7f7;
+    border-bottom: 3px solid rgba(0, 0, 0, .1);
+    margin-bottom: 100px;
+}
+
+.HomeMiddleSection-heading {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.HomeMiddleSection-body {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.HomeMiddleSection-body-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.HomeMiddleSection-body-block {
+    height: 135px;
+    width: 19%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.HomeMiddleSection-body-block>.fas {
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    padding: 22px 0;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.HomeMiddleSection-body-block>div {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: black;
+}
+
+.HomeMiddleSection-body-block>.fas:hover {
+    background: rgba(32, 32, 255, 0.675);
+    color: white;
+}
+
+.HomeMiddleSection-box-line-2 {
+    margin-top: 150px;
+    width: 100%;
+    background: #f7f7f7;
+    border-bottom: 3px solid rgba(0, 0, 0, .1);
+}
+
+/********************* HOME BOTTOM SECTION *********************/
+.HomeBottomSection {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+    font-family: Body,Quicksand,sans-serif!important;
+    background-color: rgb(241, 241, 241);
+    display: block;
+}
+
+.HomeBottomSection-heading {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+    padding: 70px 0;
+}
+
+.HomeBottomSection-body {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.HomeBottomSection-card,
+.HomeBottomSection-card-add {
+    max-width: 340px;
+    max-height: 615px;
+    border: 1px solid rgb(224, 224, 224);
+    margin-bottom: 50px;
+}
+
+.HomeBottomSection-card>img {
+    max-width: 340px;
+    max-height: 340px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.HomeBottomSection-card-head {
+    max-width: 340px;
+    max-height: 340px;
+    width: 100%;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.HomeBottomSection-card>p {
+    max-width: 340px;
+    height: 225px;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.HomeBottomSection-card-readmore {
+    margin: -10px 0 10px;
+    padding: 0 5%;
+}
+
+/********************* MEDIA SCREEN *********************/
+@media (min-width:2000px) {
+
+    /*********** HOME TOP SECTION - Right Section ***********/
+    .HomeTopSection-right {
+        left: 70%;
+    }
+
+}
+
+@media (max-width:1360px) {
+
+    /*********** HOME TOP SECTION - Right Section ***********/
+    .HomeTopSection-right {
+        left: 750px;
+    }
+
+    .HomeTopSection-right-up {
+        width: 100%;
+        font-size: 50px;
+        color: white;
+        font-weight: 700;
+        margin: 100px 0 0 0;
+    }
+
+    .HomeTopSection-right-down {
+        margin: 0;
+    }
+}
+
+@media (max-width:764px) {
+    .HomeMiddleSection {
+        display: none;
+    }
+
+    .HomeBottomSection {
+        display: none;
+    }
+}

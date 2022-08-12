@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="UserProfile">
+
+        <section class="UserProfile_TopSection">
+            <div class="UserProfile_Image_body">
+                <img class="UserProfile_Background_Image" src="./1111.jpg" alt="">
+
+                <div class="UserProfile_Profile_Image">
+                    <img src="./Profile Pic.jpeg" alt="">
+                </div>
+
+                <div class="UserProfile_User_Name">Umar Farooque</div>
+            </div>
+
+            <div class="UserProfile_TopSection_btns">
+                <div class="UserProfile_TopSection_btn" style="opacity: 0.6;">About</div>
+                <div class="UserProfile_TopSection_btn">Requests</div>
+                <div class="UserProfile_TopSection_btn">User</div>
+            </div>
+        </section>
+
+        <div class="Popup_Image">
+            <span>&times;</span>
+            <img src="" alt="">
+        </div>
+
+        <section class="UserProfile_BottomSection">
+            <div class="UserProfile_About">
+                <h3 class="UserProfile_About_heading">User Details</h3>
+                <div class="UserProfile_About_body">
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Date Of Birth:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                </div>
+
+
+                <h3 class="UserProfile_About_heading">User Bank Details</h3>
+                <div class="UserProfile_About_body">
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Date Of Birth:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                    <div class="UserProfile_About_row">
+                        <div class="UserProfile_About_col1">Email:</div>
+                        <div class="UserProfile_About_col2"> mdumarfarooqu@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <script>
+        document.querySelectorAll(".UserProfile_TopSection img").forEach(image => {
+            image.onclick = () => {
+                document.querySelector(".UserProfile_TopSection").style.opacity = "0.6";
+                document.querySelector(".UserProfile_BottomSection").style.opacity = "0.6";
+                document.querySelector(".Popup_Image").style.display = "block";
+                document.querySelector(".Popup_Image img").src = image.getAttribute("src");
+            };
+        });
+
+        document.querySelector(".Popup_Image span").onclick = () => {
+            document.querySelector(".Popup_Image").style.display = "none";
+            document.querySelector(".UserProfile_TopSection").style.opacity = "1";
+            document.querySelector(".UserProfile_BottomSection").style.opacity = "1";
+        }
+    </script>
+</body>
+
+</html>
